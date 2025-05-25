@@ -16,7 +16,7 @@ const AddUser = () => {
                 <input
                   type="text"
                   placeholder="Adınızı daxil edin"
-                  className="border  border-gray-400 outline-none rounded-lg pl-3 py-2"
+                  className="border  border-gray-200 outline-none rounded-lg pl-3 py-2"
                 />
               </label>
 
@@ -25,7 +25,7 @@ const AddUser = () => {
                 <input
                   type="number"
                   placeholder="+994 xx xxx xx xx"
-                  className="border border-gray-400 outline-none rounded-lg pl-3 py-2"
+                  className="border border-gray-200 outline-none rounded-lg pl-3 py-2"
                 />
               </label>
             </div>
@@ -36,7 +36,7 @@ const AddUser = () => {
                 <input
                   type="text"
                   placeholder="Soyadınızı daxil edin"
-                  className="border border-gray-400 outline-none rounded-lg pl-3 py-2"
+                  className="border border-gray-200 outline-none rounded-lg pl-3 py-2"
                 />
               </label>
 
@@ -45,7 +45,7 @@ const AddUser = () => {
                 <input
                   type="text"
                   placeholder="Daxil edin"
-                  className="border border-gray-400 outline-none rounded-lg pl-3 py-2"
+                  className="border border-gray-200 outline-none rounded-lg pl-3 py-2"
                 />
               </label>
             </div>
@@ -55,7 +55,7 @@ const AddUser = () => {
             Qeyd
             <textarea
               placeholder="Əlavə məlumat"
-              className="border border-gray-400 outline-none rounded-lg p-3 h-36 "
+              className="border border-gray-200 outline-none rounded-lg p-3 h-36 "
             />
           </label>
         </form>

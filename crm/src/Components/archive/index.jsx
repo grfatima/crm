@@ -1,10 +1,10 @@
 import React from "react";
 
-const AllUser = () => {
+const Archive = () => {
   return (
     <div className="pl-15 pt-9">
       <div className="text-2xl pb-[15%]">
-        <h2>Bütün Müştərilər</h2>
+        <h2>Arxivlənmiş Müştərilər</h2>
       </div>
 
       <div>
@@ -20,4 +20,4 @@ const AllUser = () => {
   );
 };
 
-export default AllUser;
+export default Archive;
