@@ -22,14 +22,20 @@ const Sidebar = () => {
           <FaUserPlus />
           Yeni müştəri əlavə et
         </Link>
-        <Link className="text-lg text-white flex gap-5 pl-10 items-center transition-all duration-300 hover:bg-[#ffffff38] py-5 rounded-lg  ">
+
+        <Link
+          className="text-lg text-white flex gap-5 pl-10 items-center transition-all duration-300 hover:bg-[#ffffff38] py-5 rounded-lg  "
+          to={"/all-user"}
+        >
           <FaUsers />
           Bütün müştərilər
         </Link>
+
         <Link className="text-lg text-white flex gap-5 pl-10 items-center transition-all duration-300 hover:bg-[#ffffff38] py-5 rounded-lg  ">
           <IoArchive />
           Arxiv
         </Link>
+
         <Link className="text-lg text-white flex gap-5 pl-10 items-center transition-all duration-300 hover:bg-[#ffffff38] py-5 rounded-lg  ">
           <IoIosExit />
           Çıxış et
